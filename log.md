@@ -8,3 +8,13 @@
 **Thoughts:** Working through the Modern React with Redux course this morning really helped me out with this one. Also, it taught me a bunch of ES6! Tomorrow I'll convert my CSS to SASS, upload the project to my website and make a start on the camper leaderboard project.
 
 **Link to work:** [Markdown Previewer App](https://github.com/4xDMG/markdown-previewer)
+
+
+### Day 2: 4 January, 2017
+
+
+**Today's Progress**: Learnt a bit of SASS and added it to my Markdown Previewer Project.
+
+**Thoughts:** SASS is pretty cool. Can't wait to use it on a bigger project. Tried to  work out how to deploy my app on to my website but gave up for today.
+
+**Link to work:** [Markdown Previewer App](https://github.com/4xDMG/markdown-previewer)
