@@ -18,3 +18,13 @@
 **Thoughts:** SASS is pretty cool. Can't wait to use it on a bigger project. Tried to  work out how to deploy my app on to my website but gave up for today.
 
 **Link to work:** [Markdown Previewer App](https://github.com/4xDMG/markdown-previewer)
+
+
+### Day 3: 5 January, 2017
+
+
+**Today's Progress**: Deployed Markdown Previewer App but styles are missing. Used create-react-app to make boilerplate for my camper-leaderboard project. Organised what components I will need for leaderboard and started coding them.
+
+**Thoughts:** I think I need to import the css file to get styles working for the Markdown Previewer. I think I have got all the components I need for the leaderboard project and am thinking I should be able to finish it tomorrow.
+
+**Link to work:** [Camper Leaderboard](https://github.com/4xDMG/camper-leaderboard)
