@@ -28,3 +28,13 @@
 **Thoughts:** I think I need to import the css file to get styles working for the Markdown Previewer. I think I have got all the components I need for the leaderboard project and am thinking I should be able to finish it tomorrow.
 
 **Link to work:** [Camper Leaderboard](https://github.com/4xDMG/camper-leaderboard)
+
+
+### Day 4: 6 January, 2017
+
+
+**Today's Progress**: Kept working on Camper Leaderboard App.
+
+**Thoughts:** Need to rethink my Camper Leaderboard and work out why I'm getting the bugs I'm getting.
+
+**Link to work:** [Camper Leaderboard](https://github.com/4xDMG/camper-leaderboard)
