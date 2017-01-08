@@ -38,3 +38,13 @@
 **Thoughts:** Need to rethink my Camper Leaderboard and work out why I'm getting the bugs I'm getting.
 
 **Link to work:** [Camper Leaderboard](https://github.com/4xDMG/camper-leaderboard)
+
+
+### Day 5: 8 January, 2017
+
+
+**Today's Progress**: Did more work on personal portfolio website. Added AJAX contact form from a tutorial.
+
+**Thoughts:** Enjoyed learning a little bit of php and procrastinating on Camper Leaderboard App. Later today I might do a bit more on it.
+
+**Link to work:** [Personal Porfolio](http://www.danieltait.com.au)
