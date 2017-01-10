@@ -48,3 +48,23 @@
 **Thoughts:** Enjoyed learning a little bit of php and procrastinating on Camper Leaderboard App. Later today I might do a bit more on it.
 
 **Link to work:** [Personal Porfolio](http://www.danieltait.com.au)
+
+
+### Day 6: 9 January, 2017
+
+
+**Today's Progress**: Did more work on personal portfolio website. Fixed up all CSS styling issues.
+
+**Thoughts:** Battled with CSS for awhile but managed to get the page to look how I wanted it to look.
+
+**Link to work:** [Personal Porfolio](http://www.danieltait.com.au)
+
+
+### Day 7: 10 January, 2017
+
+
+**Today's Progress**: Tried to get my API call working for the camper leaderboard app.
+
+**Thoughts:** Having trouble getting my head around how to do things in ES6. Tried two different methods of making the call and they both didn't work. Will investigate more tomorrow.
+
+**Link to work:** [Camper Leaderboard](https://github.com/4xDMG/camper-leaderboard)
