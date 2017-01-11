@@ -68,3 +68,13 @@
 **Thoughts:** Having trouble getting my head around how to do things in ES6. Tried two different methods of making the call and they both didn't work. Will investigate more tomorrow.
 
 **Link to work:** [Camper Leaderboard](https://github.com/4xDMG/camper-leaderboard)
+
+
+### Day 8: 11 January, 2017
+
+
+**Today's Progress**: Got API call working and started working on my point_type_selector's functionality.
+
+**Thoughts:** API call was working, I just wasn't referencing the right key in the JSON object. Oops. Started trying to figure out the best way to pass state around the app and where I should put my getData method.
+
+**Link to work:** [Camper Leaderboard](https://github.com/4xDMG/camper-leaderboard)
