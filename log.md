@@ -78,3 +78,13 @@
 **Thoughts:** API call was working, I just wasn't referencing the right key in the JSON object. Oops. Started trying to figure out the best way to pass state around the app and where I should put my getData method.
 
 **Link to work:** [Camper Leaderboard](https://github.com/4xDMG/camper-leaderboard)
+
+
+### Day 9: 12 January, 2017
+
+
+**Today's Progress**: Worked out how to pass state from App.js to my CamperList component and started work on CamperListItem.
+
+**Thoughts:** Felt good about today. Struggled with how to pass state at the start but got the hang of it after reading some stack overflow. Tomorrow, I'll work on generating my camper_list_items using the .map() method and the PointTypeSelector component.
+
+**Link to work:** [Camper Leaderboard](https://github.com/4xDMG/camper-leaderboard)
