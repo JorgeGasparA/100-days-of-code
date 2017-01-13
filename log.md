@@ -88,3 +88,13 @@
 **Thoughts:** Felt good about today. Struggled with how to pass state at the start but got the hang of it after reading some stack overflow. Tomorrow, I'll work on generating my camper_list_items using the .map() method and the PointTypeSelector component.
 
 **Link to work:** [Camper Leaderboard](https://github.com/4xDMG/camper-leaderboard)
+
+
+### Day 10: 13 January, 2017
+
+
+**Today's Progress**: Finished CamperListItem component and started doing some basic styling.
+
+**Thoughts:** Another good day. Tomorrow I'll have to stop procrastinating about the PointTypeSelector, finish the styling and update the README.md
+
+**Link to work:** [Camper Leaderboard](https://github.com/4xDMG/camper-leaderboard)
