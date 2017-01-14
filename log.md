@@ -98,3 +98,13 @@
 **Thoughts:** Another good day. Tomorrow I'll have to stop procrastinating about the PointTypeSelector, finish the styling and update the README.md
 
 **Link to work:** [Camper Leaderboard](https://github.com/4xDMG/camper-leaderboard)
+
+
+### Day 11: 14 January, 2017
+
+
+**Today's Progress**: Finished camper leaderboard project and started on recipie box.
+
+**Thoughts:** Achieved all the stuff I set out to do today. Feeling good. Had some trouble working out how to add the SCSS styles to my page after I deployed it on GitHub Pages. Played around with stuff, broke the whole app, cloned it from my repo, played around some more and now it magically works.
+
+**Link to work:** [Camper Leaderboard](https://github.com/4xDMG/camper-leaderboard)
