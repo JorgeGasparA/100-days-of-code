@@ -108,3 +108,24 @@
 **Thoughts:** Achieved all the stuff I set out to do today. Feeling good. Had some trouble working out how to add the SCSS styles to my page after I deployed it on GitHub Pages. Played around with stuff, broke the whole app, cloned it from my repo, played around some more and now it magically works.
 
 **Link to work:** [Camper Leaderboard](https://github.com/4xDMG/camper-leaderboard)
+
+
+### Day 12: 15 January, 2017
+
+
+**Today's Progress**: Worked on App and RecipeList components
+
+**Thoughts:** Didn't get alot done today. Having trouble working out why I sometimes get ```Can only update mounted or mouting component``` error when I use ```.setState``` on methods in my class.
+
+**Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
+
+
+
+### Day 13: 16 January, 2017
+
+
+**Today's Progress**: Worked on RecipeList and RecipeListItem components
+
+**Thoughts:** Tried for 10-20 minutes to work out the error from yesterday but gave up temporarily and started moving forward getting the RecipeListItem component working.
+
+**Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
