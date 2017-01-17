@@ -137,6 +137,6 @@
 
 **Today's Progress**: Took a step back and reworked the App and added a new component
 
-**Thoughts:** Gave up on the error for now and decided to focus on making the app fully functional first then I'll worry about local storage and state management when it's all up and running. For some reason my return statement on the IngredientList component isn't being called so the <li> JSX element isn't displaying.
+**Thoughts:** Gave up on the error for now and decided to focus on making the app fully functional first then I'll worry about local storage and state management when it's all up and running. For some reason my return statement on the IngredientList component isn't being called so the ```<li>``` JSX element isn't displaying.
 
 **Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
