@@ -132,7 +132,7 @@
 
 
 
-### Day 13: 16 January, 2017
+### Day 14: 17 January, 2017
 
 
 **Today's Progress**: Took a step back and reworked the App and added a new component
