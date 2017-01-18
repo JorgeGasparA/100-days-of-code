@@ -140,3 +140,14 @@
 **Thoughts:** Gave up on the error for now and decided to focus on making the app fully functional first then I'll worry about local storage and state management when it's all up and running. For some reason my return statement on the IngredientList component isn't being called so the ```<li>``` JSX element isn't displaying.
 
 **Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
+
+
+
+### Day 15: 18 January, 2017
+
+
+**Today's Progress**: Got RecipeList and RecipeListItem components finished for now and got my Add, Edit and Delete buttons ready to work on next time.
+
+**Thoughts:** Hunted around on google trying to find a solution for my ```<li>``` elements not rendering. It seems moving the ```<ul>``` tag to my generateIngredients method fixed it. Happy with today's progress and excited about getting the buttons functioning. Hopefully I will be able to complete this project this week and move onto the Game of Life project!
+
+**Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
