@@ -151,3 +151,14 @@
 **Thoughts:** Hunted around on google trying to find a solution for my ```<li>``` elements not rendering. It seems moving the ```<ul>``` tag to my generateIngredients method fixed it. Happy with today's progress and excited about getting the buttons functioning. Hopefully I will be able to complete this project this week and move onto the Game of Life project!
 
 **Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
+
+
+
+### Day 16: 20 January, 2017
+
+
+**Today's Progress**: Started work on my AddRecipe component.
+
+**Thoughts:** Missed coding yesterday because I went to the BrisJS meetup after work. It was a great night with lots of really smart people. Today I struggled a bit to get a dialog div to display so people could enter new recipes. I think where I went wrong was by trying to get a method inside the component that wasn't the render method to render some jsx. I fixed it by putting the jsx for the dialog in the render method but giving it the class of hidden.
+
+**Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
