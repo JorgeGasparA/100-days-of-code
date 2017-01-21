@@ -162,3 +162,14 @@
 **Thoughts:** Missed coding yesterday because I went to the BrisJS meetup after work. It was a great night with lots of really smart people. Today I struggled a bit to get a dialog div to display so people could enter new recipes. I think where I went wrong was by trying to get a method inside the component that wasn't the render method to render some jsx. I fixed it by putting the jsx for the dialog in the render method but giving it the class of hidden.
 
 **Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
+
+
+
+### Day 17: 21 January, 2017
+
+
+**Today's Progress**: Continued work on my AddRecipe component.
+
+**Thoughts:** Starting to think I'm going overboard with the amount of componets I'm using after talking to @coymeetsworld on FreeCodeCamps Gitter chat. Tomorrow I might remove some of my button components and just add then to my App class.
+
+**Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
