@@ -173,3 +173,14 @@
 **Thoughts:** Starting to think I'm going overboard with the amount of componets I'm using after talking to @coymeetsworld on FreeCodeCamps Gitter chat. Tomorrow I might remove some of my button components and just add then to my App class.
 
 **Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
+
+
+
+### Day 18: 22 January, 2017
+
+
+**Today's Progress**: Merged button components into their parent components and worked on EditRecipeForm.
+
+**Thoughts:** Merging components together has made it a lot easier to pass state around. I'll have to be mindful in future of not getting carried away with making everything a component.
+
+**Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
