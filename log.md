@@ -184,3 +184,14 @@
 **Thoughts:** Merging components together has made it a lot easier to pass state around. I'll have to be mindful in future of not getting carried away with making everything a component.
 
 **Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
+
+
+
+### Day 19: 23 January, 2017
+
+
+**Today's Progress**: Finished edit recipe form and started working on method in App component to handle the editing of an existing recipe.
+
+**Thoughts:** Hopefully I will be able to finish off the method that edits a recipe and work out any bugs tomorrow which will just leave me with the delete buttons functionality and styling. :)
+
+**Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
