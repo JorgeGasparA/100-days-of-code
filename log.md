@@ -195,3 +195,14 @@
 **Thoughts:** Hopefully I will be able to finish off the method that edits a recipe and work out any bugs tomorrow which will just leave me with the delete buttons functionality and styling. :)
 
 **Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
+
+
+
+### Day 20: 24 January, 2017
+
+
+**Today's Progress**: Finished edit recipe method and started work on delete recipe method.
+
+**Thoughts:** Achieved my goal from yesterday! Hoping to wrap this project up before the weekend!
+
+**Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
