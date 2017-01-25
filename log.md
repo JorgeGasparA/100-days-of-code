@@ -210,7 +210,7 @@
 
 
 
-### Day 20: 24 January, 2017
+### Day 21: 25 January, 2017
 
 
 **Today's Progress**: Finsihed all features and tried to get localStorage happening.
