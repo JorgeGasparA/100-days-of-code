@@ -206,3 +206,15 @@
 **Thoughts:** Achieved my goal from yesterday! Hoping to wrap this project up before the weekend!
 
 **Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
+
+
+
+
+### Day 20: 24 January, 2017
+
+
+**Today's Progress**: Finsihed all features and tried to get localStorage happening.
+
+**Thoughts:** Local storage is confusing me. App won't work when I try and test for localStorage using ```if (localStorage[recipes])```. Get the error recipes is undefined and am thinking to myself well yeah go to the else clause then. Might need some guidance on this one.
+
+**Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
