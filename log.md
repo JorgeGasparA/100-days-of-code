@@ -218,3 +218,14 @@
 **Thoughts:** Local storage is confusing me. App won't work when I try and test for localStorage using ```if (localStorage[recipes])```. Get the error recipes is undefined and am thinking to myself well yeah go to the else clause then. Might need some guidance on this one.
 
 **Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
+
+
+
+### Day 22: 26 January, 2017
+
+
+**Today's Progress**: Worked out localStorage issue, set up SCSS and started styling.
+
+**Thoughts:** Forgot the quotes on ```localStorage["recipes"]```. Oops. Feeling good about finishing tomorrow and starting on the Game of Life project :)
+
+**Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
