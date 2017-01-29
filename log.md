@@ -229,3 +229,14 @@
 **Thoughts:** Forgot the quotes on ```localStorage["recipes"]```. Oops. Feeling good about finishing tomorrow and starting on the Game of Life project :)
 
 **Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
+
+
+
+### Day 23: 29 January, 2017
+
+
+**Today's Progress**: Set up Eslint with React AirBNB rules and started refacoring code to compy with them.
+
+**Thoughts:** Got advice from a fellow camper to use Eslint with airbnb rules to make my code more readable and comply with React conventions. Can't push my code to github using ```git push origin master``` now but don't have time to investigate. Will have to look at it tomorrow.
+
+**Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
