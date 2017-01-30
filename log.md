@@ -240,3 +240,14 @@
 **Thoughts:** Got advice from a fellow camper to use Eslint with airbnb rules to make my code more readable and comply with React conventions. Can't push my code to github using ```git push origin master``` now but don't have time to investigate. Will have to look at it tomorrow.
 
 **Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
+
+
+
+### Day 24: 30 January, 2017
+
+
+**Today's Progress**: Continued refactoring code to comply with React AirBnB rules.
+
+**Thoughts:** Wish I know about linting before I started writing this project. It does make my code look alot nicer though!
+
+**Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
