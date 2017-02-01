@@ -254,7 +254,7 @@
 
 
 
-### Day 25: 30 January, 2017
+### Day 25: 1 February, 2017
 
 
 **Today's Progress**: Continued refactoring code to comply with React AirBnB rules.
