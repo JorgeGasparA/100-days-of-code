@@ -251,3 +251,14 @@
 **Thoughts:** Wish I know about linting before I started writing this project. It does make my code look alot nicer though!
 
 **Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
+
+
+
+### Day 25: 30 January, 2017
+
+
+**Today's Progress**: Continued refactoring code to comply with React AirBnB rules.
+
+**Thoughts:** Cleaned up all the low hanging fruit and will now have to battle my way through the bigger mistakes in my RecipeBox.
+
+**Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
