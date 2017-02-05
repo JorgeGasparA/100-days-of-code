@@ -262,3 +262,13 @@
 **Thoughts:** Cleaned up all the low hanging fruit and will now have to battle my way through the bigger mistakes in my RecipeBox.
 
 **Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
+
+
+### Day 26: 4 February, 2017
+
+
+**Today's Progress**: Reverted RecipeBox project to before I started refactoring and set up boilerplate designed for airbnb rules. Finsihed mario.c program for CS50 course.
+
+**Thoughts:** Had a busy few days so haven't been getting as much done as I would have liked. Tomorrow BrisJS are having another meetup so I probably won't get a chance to code then either.
+
+**Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
