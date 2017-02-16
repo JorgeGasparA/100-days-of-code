@@ -272,3 +272,14 @@
 **Thoughts:** Had a busy few days so haven't been getting as much done as I would have liked. Tomorrow BrisJS are having another meetup so I probably won't get a chance to code then either.
 
 **Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box)
+
+
+
+### Day 27: 16 February, 2017
+
+
+**Today's Progress**: Sat and stared blankly at screen while trying to work out how to structure my rebuild of the recipe box project using Redux.
+
+**Thoughts:** After completing a tutorial on React-Redux I thought I had a good handle on how to use Redux. Turns out I was wrong. Will re-assess tomorrow wether or not I need to do more Redux tutorials.
+
+**Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box-airbnb)
