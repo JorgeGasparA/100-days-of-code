@@ -283,3 +283,14 @@
 **Thoughts:** After completing a tutorial on React-Redux I thought I had a good handle on how to use Redux. Turns out I was wrong. Will re-assess tomorrow wether or not I need to do more Redux tutorials.
 
 **Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box-airbnb)
+
+
+
+### Day 27: 16 February, 2017
+
+
+**Today's Progress**: Started working out a little bit (I think) and began work on displaying recipe list using an initial state.
+
+**Thoughts:** Redux is still confusing. I think rebuilding Recipe Box will be a great way to start cementing what I covered in the tutorial into my brain.
+
+**Link to work:** [Recipe Box](https://github.com/4xDMG/recipe-box-airbnb)
