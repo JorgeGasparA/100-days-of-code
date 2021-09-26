@@ -10,5 +10,13 @@
 
 **Link to work:** [Nothin' yet, sorry :c](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)
 
+### Day 2: 26 September, 2021
 
+
+**Today's Progress**: Today I did 8 lessons in Javascript Algorithms and Data structures on Functional Programing section (13-20). Almost done with the section!
+
+
+**Thoughts:** I did 8 lessons today.2 less than yesterday, however this time there were more complex, and utilized other concepts seen in previous sections. I feel my concentration improved since yesterday. It is always good to remember and practice map, filter, reduce, sort, splice, slice, split, join, and all the other cool built-in functions. This kind of tools are what make me like JS.
+
+**Link to work:** [These two exercices took me more time than the others](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)
 
