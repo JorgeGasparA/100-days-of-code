@@ -20,3 +20,12 @@
 
 **Link to work:** [These two exercices took me more time than the others](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)
 
+### Day 3: 27 September, 2021
+
+
+**Today's Progress**: Today I did 4 lessons in Javascript Algorithms and Data structures on Functional Programing section (21-24) and started Intermediate Algorithm Scripting (1-4)
+
+
+**Thoughts:** I finally finished the functional programing section. Learned about some() and every(). I think I had not used them before. I started the algorithms section, a subject I very much enjoy. I lost a lot of time in the first one trying to come up with a super creative and short way of solving it. It didn't work. I think I almost wasted 20 minutes. Then I gave up with the fancy solution and solved it in like 2 minutes. I have to stop trying to do that all the time. I am very happy with my solutions
+
+**Link to work:** [I think I am gonna start commiting these excercises on this same repository... soon](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)
