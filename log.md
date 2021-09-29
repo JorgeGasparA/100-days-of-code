@@ -29,3 +29,13 @@
 **Thoughts:** I finally finished the functional programing section. Learned about some() and every(). I think I had not used them before. I started the algorithms section, a subject I very much enjoy. I lost a lot of time in the first one trying to come up with a super creative and short way of solving it. It didn't work. I think I almost wasted 20 minutes. Then I gave up with the fancy solution and solved it in like 2 minutes. I have to stop trying to do that all the time. I am very happy with my solutions
 
 **Link to work:** [I think I am gonna start commiting these excercises on this same repository... soon](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)
+
+### Day 4: 28 September, 2021
+
+
+**Today's Progress**: Today I did 4 lessons in Javascript Algorithms and Data structures on Intermediate Algorithm Scripting (5-8) section
+
+
+**Thoughts:** I spent more than one hour trying to solve these. I used regular expressions on most of them, which simplified A LOT the code, and ultimately were the best answer to them. I am happy because six months ago I didn't know anything about RegEx, and couldn't solve this kind of algorithms. I still have a lot to improve and to learn from them. One step closer to the certification excercises. 
+
+**Link to work:** [I added a folder with all the algorithm excercises, and the two lessons I mentioned in Day 2](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)
