@@ -1,0 +1,12 @@
+function diffArray(arr1, arr2) {
+  var newArr = [];
+  arr1.forEach((elem) =>{
+    arr2.includes(elem) ? null : newArr.push(elem)
+  })
+  arr2.forEach((elem)=>{
+    arr1.includes(elem) ? null : newArr.push(elem)
+  })
+  return newArr;
+}
+
+diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);

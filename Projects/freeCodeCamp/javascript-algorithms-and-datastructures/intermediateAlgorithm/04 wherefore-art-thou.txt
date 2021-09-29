@@ -1,0 +1,20 @@
+function whatIsInAName(collection, source) {
+  var arr = [];
+  // Only change code below this line
+  collection.forEach((objInCollection) => {
+    let failed = false
+    Object.getOwnPropertyNames(source).forEach((prop) =>{
+      objInCollection.hasOwnProperty(prop) ? 
+                        (objInCollection[prop] !== source[prop] ? failed = true : null):
+                        failed = true                  
+    })
+    if(!failed){
+      arr.push(objInCollection)
+    }
+  })
+
+  // Only change code above this line
+  return arr;
+}
+
+whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });

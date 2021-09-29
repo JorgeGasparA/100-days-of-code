@@ -1,0 +1,20 @@
+function sumAll(arr) {
+  let diff = arr[1] - arr[0]
+  let acum = 0
+  if(diff > 0){
+    //return ((diff + 2)*arr[0]) + diff 
+    for(let i = arr[0];i <= arr[1]; i++){
+      acum = acum + i
+    }
+  }else if(diff < 0){
+    for(let i = arr[1];i <= arr[0]; i++){
+      acum = acum + i
+    } 
+  }else{
+    acum = arr[0] + arr[1]
+  }
+  return acum 
+}
+
+let tests = [[1,4],[4,1],[5,10],[10,5]]
+tests.forEach((elem) => {console.log(sumAll(elem))})

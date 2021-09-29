@@ -1,0 +1,6 @@
+function spinalCase(str) {  
+  let regEx = /([A-Z]|)([a-z])+(?=[A-Z]|)/g
+  return str.match(regEx).join('-').toLowerCase();
+}
+console.log(spinalCase('This Is Spinal Tap'))
+spinalCase('This Is Spinal Tap');

@@ -1,0 +1,11 @@
+function translatePigLatin(str) {
+  let reConsonant = /(^[^aeiou]+)/g
+  let consCluster = reConsonant.exec(str)
+  if(consCluster){
+    return str.replace(consCluster[0], '') + consCluster[0] + 'ay'
+  }else{
+    return str + 'way'
+  }  
+}
+
+translatePigLatin("consonant");
