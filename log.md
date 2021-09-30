@@ -38,4 +38,14 @@
 
 **Thoughts:** I spent more than one hour trying to solve these. I used regular expressions on most of them, which simplified A LOT the code, and ultimately were the best answer to them. I am happy because six months ago I didn't know anything about RegEx, and couldn't solve this kind of algorithms. I still have a lot to improve and to learn from them. One step closer to the certification excercises. 
 
-**Link to work:** [I added a folder with all the algorithm excercises, and the two lessons I mentioned in Day 2](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)
+**Link to work:** [I added a folder with all the algorithm excercises, and the two lessons I mentioned in Day 2](https://github.com/JorgeGasparA/100-days-of-code/tree/master/Projects/freeCodeCamp/javascript-algorithms-and-datastructures)
+
+### Day 5: 29 September, 2021
+
+
+**Today's Progress**: Today I did 4 more lessons in Javascript Algorithms and Data structures on Intermediate Algorithm Scripting (9-12) section
+
+
+**Thoughts:** We're halfway there! Man, these are hard hahaha. RegEx couldn't save me this time . However I feel happy with the results, the code is simple and readable, I'd like to think. I would have liked to use recursion, at least in the fibonacci one (#12). I'm gonna add it to my //ToDo list
+
+**Link to work:** [Today's exercises are here](https://github.com/JorgeGasparA/100-days-of-code/tree/master/Projects/freeCodeCamp/javascript-algorithms-and-datastructures/intermediateAlgorithm)

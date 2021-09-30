@@ -1,0 +1,19 @@
+function sumFibs(num) {
+  let acc = 2
+  let last2 = [1,1]
+  while(last2[1] < num){
+    let newNumber = calcFibonacci(last2[0],last2[1])    
+    last2.push(newNumber)
+    last2.shift()   
+
+    if((newNumber % 2 == 1 && newNumber <= num)){
+      acc = acc+ newNumber        
+    }
+  }
+  console.log(`Num: ${num} Acc: ${acc}`)
+  return acc;
+}
+function calcFibonacci(prev1, prev2){
+  return prev1 + prev2
+}
+sumFibs(4);

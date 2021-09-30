@@ -1,0 +1,14 @@
+function uniteUnique(arr) {
+  let args = [...arguments]
+  let uArr = []
+  args.forEach((currentArray) => {
+    currentArray.forEach((currentVal) => {
+      if(!uArr.includes(currentVal)){
+        uArr.push(currentVal)
+      }
+    })
+  })
+  return uArr;
+}
+
+uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);

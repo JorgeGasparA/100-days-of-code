@@ -1,0 +1,15 @@
+let htmlEntities = {
+  '&': '&amp;',
+  '<': '&lt;',
+  '>': '&gt;',
+  '"': '&quot;',
+  "'": '&apos;'
+}
+function convertHTML(str) {
+  for(let char in htmlEntities){
+    str = str.replaceAll(char,htmlEntities[char])
+  }
+  return str;
+}
+
+convertHTML("Dolce & Gabbana");
