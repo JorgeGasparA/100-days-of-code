@@ -18,7 +18,7 @@
 
 **Thoughts:** I did 8 lessons today.2 less than yesterday, however this time there were more complex, and utilized other concepts seen in previous sections. I feel my concentration improved since yesterday. It is always good to remember and practice map, filter, reduce, sort, splice, slice, split, join, and all the other cool built-in functions. This kind of tools are what make me like JS.
 
-**Link to work:** [These two exercices took me more time than the others](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)
+**Link to work:** [These two exercices took me more time than the others](https://github.com/JorgeGasparA/100-days-of-code/tree/master/Projects/freeCodeCamp/javascript-algorithms-and-datastructures/functionalPrograming)
 
 ### Day 3: 27 September, 2021
 
