@@ -1,0 +1,27 @@
+var Person = function(firstAndLast) {
+  // Only change code below this line
+  let _firstName, _lastName
+  this.getFirstName = () => _firstName
+  this.getLastName = () => _lastName
+  this.getFullName = () => {`${_firstName} ${_lastName}`}
+  this.setFirstName = (name) => {
+    _firstName = name
+    }
+  this.setLastName = (name) => {
+    _lastName = name
+  }
+  this.setFullName = (name) => {
+    let fullName = name.split(' ')
+    _firstName = fullName[0]
+    _lastName = fullName[1]
+  }
+  this.setFullName(firstAndLast)
+  // Complete the method below and implement the others similarly
+  this.getFullName = function() {
+    return `${_firstName} ${_lastName}`;
+  };
+  return firstAndLast;
+};
+
+var bob = new Person('Bob Ross');
+bob.getFullName();

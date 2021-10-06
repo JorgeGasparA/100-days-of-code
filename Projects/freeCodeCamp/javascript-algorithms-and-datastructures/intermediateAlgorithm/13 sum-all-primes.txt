@@ -1,0 +1,33 @@
+let primeList = [2]
+function sumPrimes(num) {  
+  let sum = 0
+  for(let i = 1; i <= num; i++){
+    let lastPrime = primeList[primeList.length - 1]
+    if(i > lastPrime){
+      if(isNewPrime(i)){
+        primeList.push(i)
+        sum = sum + i
+      }
+    }else {
+      if(primeList.includes(i)){
+        sum = sum + i
+      }
+    }
+  }
+  return sum;
+}
+function isNewPrime(number) {
+  let isPrime = true
+  primeList.forEach((currentPrime) => {
+    if(number % currentPrime === 0){
+      //console.log(`number ${number}, current: ${currentPrime}`)
+      isPrime = false
+      return
+    }
+  })
+  return isPrime
+}
+console.log(sumPrimes(10));
+console.log(primeList)
+console.log(sumPrimes(977));
+console.log(primeList)

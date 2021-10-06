@@ -1,0 +1,11 @@
+function dropElements(arr, func) {
+  let copy = [...arr]
+  for (let elem of copy){
+    if(func(elem)){
+      return arr
+    }else{
+      arr.shift()
+    }    
+  }  
+  return arr
+}

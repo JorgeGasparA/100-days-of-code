@@ -1,0 +1,51 @@
+/*Smallest Common Multiple
+Find the smallest common multiple of the provided parameters that can be evenly divided by both, as well as by all sequential numbers in the range between these parameters.
+
+The range will be an array of two numbers that will not necessarily be in numerical order.
+
+For example, if given 1 and 3, find the smallest common multiple of both 1 and 3 that is also evenly divisible by all numbers between 1 and 3. The answer here would be 6.*/
+//=====================================================================================================================
+
+let primeList = []
+function smallestCommons(arr) {
+  arr.sort((a,b)=>a-b)
+  let [start,end] = arr
+  let numberList = []
+  let multipleList = []
+  for(let i = 0; i <= end; i++){
+        if(isPrime(i)){
+      primeList.push(i)
+    }
+  }
+  for(let i = start; i <= end; i++){
+    numberList.push(i)
+  }
+  //console.log(numberList)
+  //console.log(primeList)
+  let j = 0
+  while(!numberList.every((current)=>current == 1)){
+    if(numberList.some((current) => current % primeList[j] == 0)){
+      multipleList.push(primeList[j])
+      numberList.forEach((current, index) => {
+        if(current % primeList[j] == 0){
+          numberList[index] = current / primeList[j]
+          }    
+      })
+    }else {
+      j++
+    }
+    //console.log(numberList)
+  }
+  console.log(multipleList)
+  let reduces = (current, previous) => current*previous
+  let smallestMultiple = multipleList.reduce(reduces)
+  console.log(smallestMultiple)
+  return smallestMultiple;
+}
+const isPrime = num => {
+    for(let i = 2, s = Math.sqrt(num); i <= s; i++)
+        if(num % i === 0) return false; 
+    return num > 1;
+}
+
+smallestCommons([23,18])

@@ -1,0 +1,27 @@
+function steamrollArray(arr) {
+  let args = [...arguments]
+  let flatArray = []
+  args.forEach((current) => {
+    if(!Array.isArray(current)){
+      flatArray.push(current)
+    }else{
+      let flattened = steamrollArray(...current)
+      flatArray = flatArray.concat(flattened)
+    }
+  })
+  return flatArray;
+}
+
+let testArrays = [
+  [1, [2], [3, [[4]]]],
+  [[["a"]], [["b"]]],
+  [1, [2], [3, [[4]]]],
+  [1, [], [3, [[4]]]],
+  [1, {}, [3, [[4]]]]
+]
+
+testArrays.forEach( current => {
+  console.log(steamrollArray(current))
+})
+
+

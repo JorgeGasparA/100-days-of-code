@@ -49,3 +49,22 @@
 **Thoughts:** We're halfway there! Man, these are hard hahaha. RegEx couldn't save me this time . However I feel happy with the results, the code is simple and readable, I'd like to think. I would have liked to use recursion, at least in the fibonacci one (#12). I'm gonna add it to my //ToDo list
 
 **Link to work:** [Today's exercises are here](https://github.com/JorgeGasparA/100-days-of-code/tree/master/Projects/freeCodeCamp/javascript-algorithms-and-datastructures/intermediateAlgorithm)
+
+### Day 6: 1st of October, 2021
+
+
+**Today's Progress**: Today I did 2 algorithms in Javascript Algorithms and Data structures on Intermediate Algorithm Scripting (13-14) section, and started reading about viable and modern .NET approachs to do a web app from scratch
+
+
+**Thoughts:** I skipped yesterday, however today I not only invested more than one hour an a half solving these problems, I spent other 2 hours watching the different .NET options to make a web app from the ground up. I think I am gonna be inclined to .Net MVC with React front end. Must learn those two,
+
+**Link to work:** [Today's exercises are here](https://github.com/JorgeGasparA/100-days-of-code/tree/master/Projects/freeCodeCamp/javascript-algorithms-and-datastructures/intermediateAlgorithm)
+
+### Day 7: 5 October, 2021
+
+
+**Today's Progress**: Today I did 6 algorithms in Javascript Algorithms and Data structures on Intermediate Algorithm Scripting (15-20) section, and started a react full course 
+
+**Thoughts:** I skipped the weekend and monday, but it was worth it tbh. Today I decided to spent as much as I can only with code, putting aside other projects I had in mind. Just one more algoritm before the true projects begin. I am gonna to commit now, but I'll try to solve the last one and star the projects tomorrow.
+
+**Link to work:** [Today's exercises are here](https://github.com/JorgeGasparA/100-days-of-code/tree/master/Projects/freeCodeCamp/javascript-algorithms-and-datastructures/intermediateAlgorithm)
