@@ -68,3 +68,12 @@
 **Thoughts:** I skipped the weekend and monday, but it was worth it tbh. Today I decided to spent as much as I can only with code, putting aside other projects I had in mind. Just one more algoritm before the true projects begin. I am gonna to commit now, but I'll try to solve the last one and star the projects tomorrow.
 
 **Link to work:** [Today's exercises are here](https://github.com/JorgeGasparA/100-days-of-code/tree/master/Projects/freeCodeCamp/javascript-algorithms-and-datastructures/intermediateAlgorithm)
+
+### Day 8: 7 October, 2021
+
+
+**Today's Progress**: Today I did the last lesson from JS course en freeCodeCamp, and the first certification Project! I also spent a cople of hours with React components!
+
+**Thoughts:** I now know the basics of react components and props, finished the Section 3 from the react course. Finished my last algorithm and my first certification project, both were easier than expected
+
+**Link to work:** [Today's exercises are here](https://github.com/JorgeGasparA/100-days-of-code/tree/master/Projects/freeCodeCamp/javascript-algorithms-and-datastructures/intermediateAlgorithm)
