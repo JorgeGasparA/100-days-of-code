@@ -77,3 +77,12 @@
 **Thoughts:** I now know the basics of react components and props, finished the Section 3 from the react course. Finished my last algorithm and my first certification project, both were easier than expected
 
 **Link to work:** [Today's exercises are here](https://github.com/JorgeGasparA/100-days-of-code/tree/master/Projects/freeCodeCamp/javascript-algorithms-and-datastructures/intermediateAlgorithm)
+
+### Day 9: 8 October, 2021
+
+
+**Today's Progress**: Today I did the last 4 certification projects from JS freeCodeCamp, and earned my certification!
+
+**Thoughts:** I did it, I ACTUALLY DID IT. Took me aproximately 6 hours to end all four, but I was not gonna quit, not being this close
+
+**Link to work:** [Today's exercises are here](https://www.freecodecamp.org/certification/fcccbb8e45a-dc52-47f7-b6e6-5c1ef1d9e683/javascript-algorithms-and-data-structures)
