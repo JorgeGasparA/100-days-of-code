@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>D&D Survey</title>
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <h1 id="title">D&D 5e Preferences</h1>
+            <p id="description">We are interested to know more about what players and dungeron masters enjoy from the game</p>
+        </header>
+        <form action="" id="survey-form">
+            <div class="query">
+                <label id="name-label" for="name">Name</label>
+                <input class="input-textarea" type="text" id="name" placeholder="   Enter your full name" required>
+            </div>
+            <div class="query">
+                <label id="email-label" for="email">E-mail</label>
+                <input class="input-textarea" type="email" name="" id="email" placeholder="   Enter a valid Email" required>
+            </div>
+            <div class="query">
+                <label for="" id="number-label">Age</label>
+                <input class="input-textarea" type="number" min="12" max="399" id="number" placeholder="   (Optional) Insert your age">
+            </div>
+            <div class="query">
+                <label for="dropdown">Favourite role to play</label>
+                <select name="dropdown" id="dropdown" class="input-dropdown">
+                    <option value="Player">Player</option>
+                    <option value="Dungeon Master">Dungeon Master</option>
+                    <option value="Both">Both</option>
+                    <option value="None">None (Why are you here then?)</option>
+                </select>
+            </div>
+            <div class="query">
+                <p>Favourite class type:</p>
+                <div>
+                    <input type="radio" name="class_type" class="input-radio" id="caster" value="Caster">
+                    <label for="caster">Caster</label>
+                </div>
+                <div>
+                    <input type="radio" name="class_type" class="input-radio" id="martial" value="Martial">
+                    <label for="martial">Martial</label>
+                </div>
+                <div>
+                    <input type="radio" name="class_type" class="input-radio" id="mixed" value="Mixed">
+                    <label for="mixed">Half-Caster/Third-Caster</label>
+                </div>
+            </div>
+            <div class="query">
+                <p>What classes have you personally played?</p>
+                <div class="check-pair"><input type="checkbox" class="input-check"id="class1" name="class1" value="artificer"><label for="class1">Artificer</label></div>
+                <div class="check-pair"><input type="checkbox" class="input-check"id="class2" name="class2" value="barbarian"><label for="class2">Barbarian</label></div>
+                <div class="check-pair"><input type="checkbox" class="input-check"id="class3" name="class3" value="bard"><label for="class3">Bard</label></div>
+                <div class="check-pair"><input type="checkbox" class="input-check"id="class4" name="class4" value="cleric"><label for="class4">Cleric</label></div>
+                <div class="check-pair"><input type="checkbox" class="input-check"id="class5" name="class5" value="druid"><label for="class5">Druid</label></div>
+                <div class="check-pair"><input type="checkbox" class="input-check"id="class6" name="class6" value="fighter"><label for="class6">Fighter</label></div>
+                <div class="check-pair"><input type="checkbox" class="input-check"id="class7" name="class7" value="monk"><label for="class7">Monk</label></div>
+                <div class="check-pair"><input type="checkbox" class="input-check"id="class8" name="class8" value="paladin"><label for="class8">Paladin</label></div>
+                <div class="check-pair"><input type="checkbox" class="input-check"id="class9" name="class9" value="ranger"><label for="class9">Ranger (why would you, tho?)</label></div>
+                <div class="check-pair"><input type="checkbox" class="input-check"id="class10" name="class10" value="rogue"><label for="class10">Rogue</label></div>
+                <div class="check-pair"><input type="checkbox" class="input-check"id="class11" name="class11" value="sorcerer"><label for="class11">Sorcerer</label></div>
+                <div class="check-pair"><input type="checkbox" class="input-check"id="class12" name="class12" value="warlock"><label for="class12">Warlock</label></div>
+                <div class="check-pair"><input type="checkbox" class="input-check"id="class13" name="class13" value="wizard"><label for="class13">Wizard</label></div>
+            </div>
+            <div class="query">
+                <label for="comments">Please describe your favourite part of playing D&D 5e</label>
+                <textarea name="comments" id="comments" class="textarea" cols="30" rows="10" placeholder="Enter your comments here..."></textarea>
+            </div>
+            <div class="query">
+                <button class="submit-button" id="submit">Submit</button>
+            </div>
+        </form>
+</body>
+</html>

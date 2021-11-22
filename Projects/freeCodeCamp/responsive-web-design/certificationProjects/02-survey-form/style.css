@@ -1,0 +1,76 @@
+:root{
+    --dnd-color: #810006;
+}
+body{
+    margin: 0;
+}
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: url(https://images.ctfassets.net/swt2dsco9mfe/2dgUO1oyXglpSEAcmqN6oh/c3dfa22003efeb00bbdf1843194e5ad4/iwbciuwbjwdb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-container #survey-form .query{
+    display: flex;
+    flex-direction: column;            
+}
+.main-container{
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    color: white;
+    margin: auto 10%;
+    text-align: center;
+}
+#survey-form{
+    color: whitesmoke;
+    margin: auto 10% 3rem;
+    background-color: #262626dc;
+    border-radius: 1rem;
+    font-size: large;
+}
+@media (min-width: 860px) {
+    header, #survey-form {
+      margin: auto 25% 3rem;
+    }
+  }
+.query{
+    padding: 1rem 3rem 0.5rem;
+}
+.input-textarea, .input-dropdown{
+    min-height: 2rem;
+    border-radius: 10px;
+}
+.input-dropdown{
+    min-height: 2.25rem;
+}
+.input-radio, .input-check{
+    min-height: 1rem;
+    min-width: 1rem;
+}
+.check-pair{
+    padding-bottom: 0.15rem;
+}
+.textarea{
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+.submit-button{
+    min-height: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: larger;
+    background-color: var(--dnd-color);
+}
+.submit-button:hover{
+    background-color: #9e0b0f;
+    cursor: pointer;
+}
