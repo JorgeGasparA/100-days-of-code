@@ -21,40 +21,143 @@
         <section class="main-section" id="Introduction">
           <header class="section-header">Introduction</header>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            quam aliquam veritatis quibusdam neque nam, impedit odio eum culpa
-            officiis!
+            CSS (<strong>C</strong>ascade <strong>S</strong>tyle
+            <strong>S</strong>heets) is a styling language, used mostly in
+            websites (there are some <em>crazy</em> ways to use it for desktop
+            apps), it indicates the browser how to visually render the content
+            of a page.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            quam aliquam veritatis quibusdam neque nam, impedit odio eum culpa
-            officiis!
+            Different from markup languages, like <em>HTML</em> that sets the
+            structure of the elemets that conform a page, or programming
+            languages, like <em>JavaScript</em> that controls the data flow and
+            logic, CSS sets the way the elements of the page
+            <em><strong>look</strong></em
+            >.
+          </p>
+          <p>
+            This means the color, the position, decoration and even animation of
+            the elements set in the HTML Document. In the browser, each element
+            has a set of properties that control the way it looks, if we don't
+            set such properties in an explicit way, the browser assigns default
+            values. This preset values often result in bland looking,
+            unappealing and frecuently confusing webpages.
+          </p>
+          <p>
+            In this guide, we will cover how to target an element (or group of
+            elements), and change its style using the basic sintax of CSS.
           </p>
         </section>
         <section class="main-section" id="What_you_will_need">
           <header class="section-header">What you will need</header>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            quam aliquam veritatis quibusdam neque nam, impedit odio eum culpa
-            officiis!
+            In order to fully understand and take advantage of this guide, you
+            will need the following:
           </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            quam aliquam veritatis quibusdam neque nam, impedit odio eum culpa
-            officiis!
-          </p>
+          <ul>
+            <li>Basic HTML knowledge</li>
+            <li>
+              A text editor (doesn't have to be a code editor, notepad would do
+              the trick too)
+            </li>
+            <li>A computer might come handy</li>
+            <li>Being alive would be kinda helpful</li>
+            <li>Class consciusness (not for CSS, but useful, in general)</li>
+          </ul>
         </section>
         <section class="main-section" id="Basic_sintax">
           <header class="section-header">Basic sintax</header>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            quam aliquam veritatis quibusdam neque nam, impedit odio eum culpa
-            officiis!
+            Alright, understanding the basic sintax is very easy, because it
+            follows always the same pattern. Let's define each part and then use
+            it to build in an example, and in the end get to a basic "formula". 
+            Let us say that we want to change the color of the text in the
+             paragraphs on our page.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            quam aliquam veritatis quibusdam neque nam, impedit odio eum culpa
-            officiis!
+            First, you gotta tell CSS what element (or elements) you want to
+            change. This can be achieved by using a
+            <strong><em>Selector</em></strong
+            >. You can <strong><em>Select</em></strong> elements in different
+            ways, being the 3 most common:
+          </p>
+          <ul>
+            <li><strong>HTML</strong> tag (eg: button, div, p)</li>
+            <li>
+              <strong>Class</strong> by using a dot before the name of the class
+              (eg: .button_default, .main_div)
+            </li>
+            <li>
+              <strong>ID</strong> by using # as a prefix to the ID name (eg:
+              #search_button, #main_content)
+            </li>
+          </ul>
+          <p>
+            There are, some others which will be covered in a little more depth
+            later on the guide.
+          </p>
+          <p>For our example, lets say that we want to change the color of the text in all of our paragraph elements. We should start with the <strong>p</strong> selector</p>
+          <code>
+            p
+          </code>
+          <p>Then, we open and close curly brackets after our selector</p>
+          <code>
+            p{
+              <br/>
+              <br/>
+            }
+          </code>
+          <p>
+            In this case, every p elemet in our html document, will be displayed according to the 
+            list of rules we define between said culry braces. <em>Unless we declare some exceptions</em>
+            , but we will come to that later.
+          </p>
+          <p>
+            For now, if we wanted to make our paragraphs text color red, it would be as simple as:
+          </p>
+          <code>
+            p{
+              <br/>
+              &nbsp;color: red;
+              <br/>
+            }
+          </code>
+          <p>
+            Now, as we have a minimun consideration toward our poor readers, and know that reading 
+            red text in white background is a pain to the eyes, we instead want to display a nice dark 
+            color in the background, and a pleasing and easy to read bright color for text:
+          </p>
+          <code>
+            p{
+              <br/>
+              &nbsp;color: whitesmoke;
+              <br>
+              &nbsp;background-color: #202224;
+              <br/>
+            }
+          </code>
+          <p>
+            You might have noticed that we can select diferent colors using different ways. There are some named colors we can choose from
+            and we can also select colors using hexadecimal codes, rgb, and others we will cover eventually.
+          </p>
+          <p>
+            For now, we have something great already. We have discovered the basic sintax for CSS.
+            EVERYTHING you could define with CSS, will be done with the following structure:
+          </p>
+          <code>
+            [Selector]{
+              <br/>
+              &nbsp;[Property]: [Value];
+              <br/>
+            }
+          </code>
+          <p>
+            We choose a selector, open and close curly brackets, and inside them we then list
+            the property-value pairs we are interested in defining, each in a separate line and
+            finishing with a semicolon.
+          </p>
+          <p>
+            AND THAT'S IT! Now, let's talk about the different kind of selectors that exist in CSS.
           </p>
         </section>
         <section class="main-section" id="Selectors">

@@ -1,11 +1,24 @@
 body{
-    margin: 0;    
-    --main-bkg-color: #f5f3f4;
+    margin: 0;   
+     /*Light theme  */
+    /* --main-bkg-color: #f5f3f4;
     --main-text-color: #0b090a;
     --navbar-bkg-color: #ffffff;
-    --navbar-text-color: #161a1d;
+    --navbar-text-color: #161a1d; */
 
-    --main-border: 4px solid var(--main-text-color) ;
+    /* Dark theme */
+    /* --main-bkg-color: #0b090a;
+    --main-text-color: #f5f3f4;
+    --navbar-bkg-color: #161a1d;
+    --navbar-text-color: #ffffff; */
+
+    /* Dark theme 2 */
+     --main-bkg-color: #181717;
+    --main-text-color: #f5f3f4;
+    --navbar-bkg-color: #202224;
+    --navbar-text-color: #ffffff;
+
+    --main-border: 3px solid var(--main-text-color) ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .main-container{
@@ -26,7 +39,7 @@ body{
 }
 .navnar__title{
     align-self: center;
-    padding: 1rem;
+    padding: 1.5rem;
     font-size: larger;
     font-weight: bolder;
 }
@@ -35,7 +48,26 @@ body{
     box-sizing: border-box;
     padding: 0.5rem 0 0.5rem 2rem;
     border-top:1px solid var(--navbar-text-color) ;
+
+    text-decoration: none;
 }
+.nav-link:link {
+    color: var(--navbar-text-color);
+    text-decoration: none;
+  }
+  
+.nav-link:visited {
+    color: var(--navbar-text-color);
+    text-decoration: none;
+  }
+  
+.nav-link:hover {
+    text-decoration: underline;
+  }
+  
+.nav-link:active {
+    text-decoration: underline;
+  }
 #main-doc{  
     grid-area: main-doc;  
     background-color: var(--main-bkg-color);
@@ -60,6 +92,13 @@ body{
 .main-section > p{
     padding-left: 1rem;
 }
+code{
+    background-color: var(--navbar-bkg-color);
+    padding: 1.5em;
+    margin: 1em;
+    border-radius: 1em;
+    color: #56c1ff;    
+}
 @media (min-width: 815px) {
     .main-container{
         grid-template-columns: auto 1fr;
@@ -69,7 +108,7 @@ body{
         "navbar main-doc";    
     }
     .nav-link{
-        padding: 0.5rem 2rem;
+        padding: 1rem 2rem;
     }
     #main-doc{  
         border-top: none;
@@ -78,5 +117,10 @@ body{
     }
     .main-section{
         padding: 1.5rem 2rem 0;
+    }
+}
+@media (min-width: 1200px) {
+    .main-section{
+        padding: 1.5rem 15% 0;
     }
 }
